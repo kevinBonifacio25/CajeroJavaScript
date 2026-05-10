@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cajero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+  <div class="atm-container">
+
+    <div class="atm-screen">
+
+      <h1>CAJERO AUTOMÁTICO</h1>
+
+      <div class="screen-content">
+
+        <p id="mensaje">Bienvenido</p>
+
+        <div class="saldo-box">
+          <span>Saldo disponible:</span>
+          <h2 id = "saldo">$1.000.000</h2>
+        </div>
+
+        <div class="input-area">
+          <label for="monto">Ingrese monto</label>
+          <input type="number" id="monto" placeholder="Ej: 50000">
+        </div>
+
+      </div>
+    </div>
+
+    <div class="atm-buttons">
+
+      <button  id = "consultarSaldo">Consultar saldo</button>
+      <button  id = "btnRetirar">Retirar dinero</button>
+      <button  id = "depositar">Depositar</button>
+      <button  id = "salir">Salir</button>
+
+    </div>
+
+    <div class="card-slot"></div>
+
+  </div>
+
+
+
+
+    <script src="cajerohtmls.js" defer></script>
+</body>
+</html>

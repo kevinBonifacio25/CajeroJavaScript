@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#1e1e1e;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.atm-container{
+    width:420px;
+    background:#3a3a3a;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 0 30px rgba(0,0,0,0.6);
+    border:8px solid #2a2a2a;
+}
+
+.atm-screen{
+    background:#97c79c;
+    border:10px solid #1d1d1d;
+    border-radius:10px;
+    padding:20px;
+    min-height:320px;
+}
+
+.atm-screen h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:#16351d;
+    font-size:24px;
+}
+
+.screen-content{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+#mensaje{
+    background:#dcefdc;
+    padding:12px;
+    border-radius:5px;
+    color:#16351d;
+    font-weight:bold;
+}
+
+.saldo-box{
+    background:#dcefdc;
+    padding:15px;
+    border-radius:5px;
+}
+
+.saldo-box span{
+    color:#16351d;
+    font-size:14px;
+}
+
+.saldo-box h2{
+    margin-top:10px;
+    color:#0f2b15;
+    font-size:30px;
+}
+
+.input-area{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.input-area label{
+    color:#16351d;
+    font-weight:bold;
+}
+
+.input-area input{
+    padding:12px;
+    border:none;
+    border-radius:5px;
+    font-size:16px;
+    outline:none;
+}
+
+.atm-buttons{
+    margin-top:25px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:15px;
+}
+
+.atm-buttons button{
+    padding:15px;
+    border:none;
+    border-radius:8px;
+    background:#c9c9c9;
+    font-weight:bold;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.atm-buttons button:hover{
+    background:#9d9d9d;
+    transform:scale(1.03);
+}
+
+.card-slot{
+    margin:25px auto 0;
+    width:180px;
+    height:12px;
+    background:black;
+    border-radius:10px;
+}
